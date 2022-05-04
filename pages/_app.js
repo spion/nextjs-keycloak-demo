@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import Authenticated from '../components/keycloak'
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <Authenticated>
+      <Component {...pageProps} />
+    </Authenticated>
+  );
 }
 
-export default MyApp
+export default MyApp;
