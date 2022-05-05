@@ -12,8 +12,9 @@ the credentials.
 
 - Go to the administration console
 - Create a realm named "demo" (Hover over the "Master" realm in the top left and add a new one)
-- For the demo realm, create a client under Clients named "next-app"
-- In the demo realm also create a user manually under Users
+- For the demo realm, create a client under Clients named "next-app" with the url http://localhost:3000
+- In the demo realm also create a user manually under Users (By default automatic registration
+  is disabled)
 
 Then, run the development server:
 
